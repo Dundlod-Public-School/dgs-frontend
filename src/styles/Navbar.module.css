@@ -1,0 +1,161 @@
+.nav {
+	background-color: #1f2937;
+	height: 12vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 200;
+}
+.logo {
+	background-image: url("../images/Navbar/LogoSmall.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 80%;
+	width: 20%;
+	order: 1;
+}
+.pages {
+	height: 80%;
+	width: 75%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	order: 2;
+}
+.pageLinks {
+	text-decoration: none;
+	color: #d1d5db;
+	background-color: #1f2937;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	margin-left: 10px;
+}
+.pageLinks:hover {
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #374151;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+.active {
+	text-decoration: none;
+	color: #d1d5db;
+	background-color: #111827;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	margin-left: 10px;
+	cursor: default;
+}
+.login {
+	height: 80%;
+	width: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	order: 3;
+}
+.loginBtn {
+	background-color: #3b82f6;
+	border: none;
+	height: 60%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.btnIcon {
+	background-image: url("../images/Navbar/login_FILL0_wght400_GRAD0_opsz48.png");
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-right: 5px;
+}
+.btnTxt {
+	text-decoration: none;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 0.75rem;
+}
+.btnTxt:hover {
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.75rem;
+}
+@media (max-width: 900px) {
+	.pages {
+		grid-area: pages;
+		flex-direction: column;
+		width: 100vw;
+		display: none;
+	}
+	.nav {
+		width: 100vw;
+		height: fit-content;
+		display: grid;
+		grid-template-areas:
+			"menu logo login"
+			"pages pages pages";
+		justify-content: center;
+		align-items: center;
+		column-gap: 5px;
+		row-gap: 5px;
+	}
+	.menu {
+		grid-area: menu;
+		width: 30vw;
+		height: 9.6vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.menuIcon {
+		height: 40px;
+		width: 40px;
+		border-radius: 10px;
+		background-color: #1f2937;
+		background-image: url("../images/Navbar/menu_FILL0_wght400_GRAD0_opsz48.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		cursor: pointer;
+	}
+	.menuIcon:hover {
+		background-color: #374151;
+	}
+	.logo {
+		grid-area: logo;
+		display: block;
+		width: 40vw;
+		height: 9.6vh;
+	}
+	.login {
+		grid-area: login;
+		width: 30vw;
+		height: 9.6vh;
+	}
+}
