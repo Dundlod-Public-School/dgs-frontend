@@ -1,0 +1,214 @@
+.admissionMain {
+	width: 80%;
+	position: relative;
+	margin: auto;
+	margin-top: 15vh;
+	margin-bottom: 20px;
+}
+
+.admissionTitle {
+	font-family: "Oswald";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #c35e88;
+}
+
+.rect {
+	height: 100%;
+	width: 0.4%;
+	max-width: 4px;
+	background: linear-gradient(#ffffff, #cbaf60, #cbaf60, #cbaf60, #cbaf60, #ffffff);
+	position: absolute;
+	left: 49.8%;
+	margin-left: -3px;
+	top: 30px;
+}
+
+.Acenter {
+	position: relative;
+	z-index: 3;
+	height: 15px;
+	width: 15px;
+	background: rgba(31, 41, 55, 0.7);
+	border-radius: 15px;
+}
+
+.Aline {
+	position: relative;
+	z-index: 0;
+	height: 4px;
+	width: 80%;
+	background: rgba(31, 41, 55);
+	border-radius: 4px;
+	margin-right: -1px;
+	margin-left: -1px;
+}
+
+.larrow {
+	display: flex;
+	align-items: center;
+	width: 50%;
+	justify-content: flex-end;
+}
+
+.rarrow {
+	display: flex;
+	align-items: center;
+	width: 50%;
+	justify-content: flex-start;
+}
+
+.rarrow {
+	margin-left: -2px;
+}
+
+.larrow {
+	margin-right: -2px;
+}
+
+.Atarget {
+	width: 10px;
+	height: 10px;
+	background: #1f2937b2;
+	transform: rotate(45deg);
+}
+
+.adimg {
+	width: 100%;
+	max-width: 300px;
+
+	margin: auto;
+	margin-top: 20px;
+}
+
+.section {
+	position: relative;
+	width: 50.2%;
+	display: flex;
+	flex-direction: column;
+}
+
+.content {
+	margin-top: 30px;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+}
+
+.adtext {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.3rem;
+	transition: 300ms ease-in;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-decoration-line: underline;
+
+	color: #000000;
+}
+
+.head {
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.section:hover .adoverlay {
+	opacity: 1;
+}
+
+.section:hover .adtext {
+	opacity: 0.8;
+	font-size: 1rem;
+}
+
+.adoverlay {
+	position: absolute;
+	top: 10%;
+	width: 90%;
+	display: flex;
+	padding: 5px;
+	align-items: center;
+	min-height: 500px;
+	transition: 600ms ease-in;
+	opacity: 0;
+
+	background: rgba(31, 41, 55, 0.9);
+	box-shadow: 10px 10px 10px -2px rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+}
+
+.overlayText {
+	width: 90%;
+	margin: auto;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2rem;
+	color: #ffffff;
+}
+
+.rights {
+	margin-left: 49.3%;
+}
+
+.rhead {
+	justify-content: flex-start;
+}
+
+.roverlay {
+	left: 5%;
+}
+
+@media only screen and (max-width: 1200px) {
+	.adoverlay {
+		margin-top: 20px;
+		z-index: 100;
+		width: 80vw;
+	}
+
+	.rights > .adoverlay {
+		margin-left: -100%;
+	}
+
+	.rights > .adimg {
+		margin-left: 15px;
+	}
+
+	.rect {
+		width: 2%;
+		height: 100vh;
+	}
+
+	.Acenter {
+		width: 10px;
+		height: 10px;
+		border-radius: 12px;
+	}
+
+	.Atarget {
+		width: 8px;
+		height: 8px;
+	}
+
+	.Aline {
+		height: 3px;
+	}
+
+	.rarrow {
+		margin-left: -3px;
+	}
+
+	.larrow {
+		margin-right: -3px;
+	}
+}

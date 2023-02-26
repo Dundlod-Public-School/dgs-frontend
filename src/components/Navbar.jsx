@@ -48,7 +48,7 @@ export default function Navbar(props) {
 					Activities
 				</Link>
 				<Link
-					href={"/admissiondetails"}
+					href={"/admission"}
 					className={props.page == "Admission" ? styles.active : styles.pageLinks}
 				>
 					Admission
