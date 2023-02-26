@@ -119,9 +119,12 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
+	width: 100%;
+	height: min-content;
 }
 .aboutTileImage {
-	width: 28vw;
+	width: 30%;
+	max-height: min-content;
 }
 .aboutTileText {
 	font-family: "Poppins", sans-serif;

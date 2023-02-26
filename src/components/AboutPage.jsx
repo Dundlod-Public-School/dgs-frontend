@@ -140,9 +140,7 @@ function Page3() {
 				onMouseLeave={handleDundlod}
 			>
 				<div className={styles.aboutBranchTileShown}>
-					<div className={styles.aboutTileImage}>
-						<Image src={dundlod} className={styles.aboutTileImage} />
-					</div>
+					<Image src={dundlod} className={styles.aboutTileImage} />
 					<div className={styles.aboutTileText}>
 						Dundlod Public School for Excellence. Since our establishment, we have been
 						continuously honoured with the first prize in both Independence Day and the
@@ -170,9 +168,7 @@ function Page3() {
 				onMouseLeave={handleJhunjhunu}
 			>
 				<div className={styles.aboutBranchTileShown}>
-					<div className={styles.aboutTileImage}>
-						<Image src={jhunjhunu} className={styles.aboutTileImage} />
-					</div>
+					<Image src={jhunjhunu} className={styles.aboutTileImage} />
 					<div className={styles.aboutTileText}>
 						Aching for an institution that people can claim its own and genuine, the
 						school management ,in an earnest endeavor, tries to seek all possible means

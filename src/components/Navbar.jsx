@@ -42,7 +42,7 @@ export default function Navbar(props) {
 					About us
 				</Link>
 				<Link
-					href={"/activites"}
+					href={"/activities-option"}
 					className={props.page == "Activities" ? styles.active : styles.pageLinks}
 				>
 					Activities

@@ -21,3 +21,7 @@
 :root {
 	overflow-x: hidden;
 }
+
+.navbar-margin-manager {
+	height: 15vh;
+}

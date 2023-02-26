@@ -1,13 +1,13 @@
 import Footer from "@/components/Footer";
 import JoinUs from "@/components/JoinUs";
 import Navbar from "@/components/Navbar";
-import AboutPage from "@/components/AboutPage";
+import ActivitiesOption from "@/components/ActivitiesOptionPage";
 
-export default function About() {
+export default function Activities() {
 	return (
 		<>
-			<AboutPage />
-			<Navbar page="About" />
+			<ActivitiesOption />
+			<Navbar page="Activities" />
 			<Footer />
 			<JoinUs />
 		</>

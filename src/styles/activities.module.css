@@ -1,0 +1,212 @@
+.optionContainer {
+	min-height: 45vh;
+	margin-top: 15vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.curr,
+.coCurr {
+	width: 40vw;
+	height: 40vw;
+	background: #fdfdfd;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.curr {
+	background-image: url("../images/Activities/study.png");
+}
+.coCurr {
+	background-image: url("../images/Activities/sports.png");
+}
+.cover {
+	background: rgba(31, 41, 55, 0.75);
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.coverLink {
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+.coverText {
+	font-family: "Poppins", sans-serif;
+	font-size: 3rem;
+	font-weight: 400;
+	color: white;
+}
+
+.curriMain {
+	position: relative;
+	display: flex;
+	width: 95%;
+	margin: 5px auto;
+	height: fit-content;
+	justify-content: center;
+}
+
+.curriContent {
+	padding: 0px 10px;
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+}
+.headContent {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.3rem;
+
+	display: flex;
+	align-items: center;
+	color: #000000;
+}
+.curriTitle {
+	font-family: "Oswald";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5rem;
+	display: flex;
+	align-items: center;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #c35e88;
+}
+
+.sectionContent {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0px;
+}
+.sectionText {
+	width: 60%;
+	padding: 10px 20px;
+	background: rgba(31, 41, 55, 0.9);
+	border-radius: 10px;
+	margin: 5px 5px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2rem;
+
+	color: #ffffff;
+}
+.curriImg {
+	width: 30%;
+	height: 300px;
+	object-fit: cover;
+	max-width: 400px;
+	margin: 3px;
+}
+.sectionRight {
+	flex-direction: row-reverse;
+}
+.sidebarCurri {
+	box-sizing: border-box;
+	width: 25%;
+	max-width: 300px;
+	height: 600px;
+
+	margin: 0px 5px;
+
+	background: #fdfdfd;
+	border-width: 0.2px 0.5px 0.2px 0.5px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.2);
+}
+.sidebarSection {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+.sidebarTitle {
+	font-family: "Oswald";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.2rem;
+
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+
+	color: #c35e88;
+}
+.sidebarHeader {
+	display: flex;
+	width: 95%;
+	margin: auto;
+	align-items: center;
+}
+.updown {
+	height: 1.2rem;
+}
+.sidebarPoints {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.point {
+	width: fit-content;
+	text-decoration: none;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 100;
+	font-size: 1rem;
+	transition: 100ms;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000000;
+}
+.bold {
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+	.sidebarCurri {
+		display: none;
+	}
+	.curriImg {
+		display: none;
+	}
+	.sectionText {
+		width: 100%;
+		padding: 10px 10px;
+		font: 1rem;
+	}
+	.curriContent {
+		width: 98%;
+	}
+	.curriSection {
+		margin-top: 10px;
+	}
+	.headContent {
+		font-size: 1rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.optionContainer {
+		flex-direction: column;
+	}
+	.coverText {
+		font-size: 2rem;
+	}
+}
