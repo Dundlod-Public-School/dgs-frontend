@@ -6,6 +6,10 @@
 	min-height: 60vh;
 	margin-top: 15vh;
 }
+.nfImage {
+	height: 20vh;
+	width: auto;
+}
 .nfNumber {
 	font-family: "Oswald", sans-serif;
 	font-size: 4rem;

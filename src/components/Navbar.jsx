@@ -66,7 +66,7 @@ export default function Navbar(props) {
 					Gallery
 				</Link>
 				<Link
-					href={"/contactus"}
+					href={"/contact"}
 					className={props.page == "Contact" ? styles.active : styles.pageLinks}
 				>
 					Contact us

@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 export default function NotFound() {
 	const router = useRouter();
 	return (
-		<div>
+		<>
 			<div className={styles.nfContainer}>
 				<div className={styles.nfNumber}>404</div>
 				<div className={styles.nfMessage}>The page you are looking for doesn't exist</div>
@@ -25,6 +25,6 @@ export default function NotFound() {
 			</div>
 			<Navbar />
 			<Footer />
-		</div>
+		</>
 	);
 }
