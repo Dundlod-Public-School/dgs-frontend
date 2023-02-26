@@ -1,0 +1,194 @@
+.contactContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: "Poppins", sans-serif;
+	margin-top: 15vh;
+	min-height: 45vh;
+	width: 100vw;
+}
+.contactInfo {
+	background-color: #fdfdfd;
+	width: 90vw;
+	min-height: 20vh;
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.contactInfoSection {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.contactInfoText {
+	margin-left: 20px;
+	color: black;
+}
+.contactSeprator {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 90vw;
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+}
+.contactSepLine {
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
+	height: 0.5px;
+	width: 40vw;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.contactSepText {
+	width: 10vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.contactWrite {
+	background: rgb(31, 41, 55);
+	width: 60vw;
+	min-height: 30vh;
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5vh;
+}
+.contactWriteSubmit,
+.contactWriteBasic,
+.contactWriteSub,
+.contactWriteBody {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 50vw;
+	margin-bottom: 2vh;
+}
+.contactWriteSub {
+	justify-content: flex-start;
+}
+.contactWriteSubmit {
+	justify-content: center;
+	margin-bottom: 0px;
+}
+.contactWriteBasicSpace {
+	width: 2vw;
+}
+.contactWriteSubText {
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 1rem;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 20px;
+	color: white;
+}
+.contactWriteSubInput,
+.contactWriteInput {
+	text-decoration: none;
+	outline: none;
+	border: none;
+	min-height: 1.5rem;
+	width: 15vw;
+	font-size: 1rem;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 10px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	margin: 2px;
+}
+.contactWriteSubInput:focus,
+.contactWriteInput:focus {
+	border: 2px solid #32bef2;
+	margin: 0px;
+}
+.contactWriteSubInput {
+	width: 30vw;
+}
+.contactWriteBodyInput {
+	resize: none;
+	outline: none;
+	font-size: 1rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	height: 11rem;
+	width: 50vw;
+	border-radius: 5px;
+	margin: 2px;
+	padding-left: 10px;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+.contactWriteBodyInput:focus {
+	margin: 0px;
+	border: 2px solid #32bef2;
+}
+.contactWriteSubmitBtn {
+	border: none;
+	background: #318ce7;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	font-size: 1rem;
+}
+.conatctWriteSubmitBtn:focus {
+	border: 1px solid #ffffff;
+}
+
+@media (max-width: 900px) {
+	.contactInfo {
+		flex-direction: column;
+	}
+	.contactWrite {
+		width: 80vw;
+	}
+	.contactWriteSubmit,
+	.contactWriteBasic,
+	.contactWriteSub,
+	.contactWriteBody {
+		width: 70vw;
+	}
+	.contactInfoSection {
+		margin-bottom: 2vh;
+	}
+	.contactWriteBasic {
+		flex-direction: column;
+	}
+	.contactWriteInput {
+		margin-bottom: 2vh;
+		width: 50vw;
+	}
+	.contactWriteSubInput {
+		width: 50vw;
+	}
+	.contactWriteBodyInput {
+		width: 70vw;
+	}
+}
