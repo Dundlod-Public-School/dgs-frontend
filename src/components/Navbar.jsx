@@ -21,7 +21,7 @@ export default function Navbar(props) {
 			<div className={styles.menu}>
 				<div className={styles.menuIcon} onClick={handleMenu}></div>
 			</div>
-			<div className={styles.logo}></div>
+			<Link href="/" className={styles.logo}></Link>
 			<div className={styles.login}>
 				<button className={styles.loginBtn} onClick={handleLogin}>
 					<div className={styles.btnIcon}></div>

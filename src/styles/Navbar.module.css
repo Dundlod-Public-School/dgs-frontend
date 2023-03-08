@@ -19,6 +19,7 @@
 	height: 80%;
 	width: 20%;
 	order: 1;
+	cursor: pointer;
 }
 .pages {
 	height: 80%;
