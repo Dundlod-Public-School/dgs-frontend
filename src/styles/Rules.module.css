@@ -1,0 +1,110 @@
+.rulesContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15vh;
+	width: 100vw;
+	min-height: 45vh;
+}
+.rulesHead {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	width: 85vw;
+}
+.aims {
+	background: #fdfdfd;
+	box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	width: 90vw;
+	margin-top: 3vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.aimsHead {
+	font-family: "Oswald", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #c35e88;
+	width: 85vw;
+}
+.aimsBody {
+	width: 85vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: fit-content;
+}
+.aimsLeft,
+.aimsRight {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.aimsList {
+	width: 40vw;
+	height: max-content;
+	background: #ffffff;
+	border: 0.2px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 10px;
+	padding: 5px;
+	margin-bottom: 10px;
+	min-height: 6rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	position: relative;
+}
+.aimsListInfo {
+	font-family: "Poppins", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1rem;
+	color: #000000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: max-content;
+}
+.aimsListDecor {
+	background-image: url("../images/Home/Group34.png");
+	background-size: contain;
+	height: 60px;
+	width: 60px;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	opacity: 0.3;
+}
+@media (max-width: 900px) {
+	.aimsBody {
+		flex-direction: column;
+	}
+	.aimsLeft,
+	.aimsRight {
+		max-width: 88vw;
+	}
+	.aimsList {
+		width: 85vw;
+	}
+}

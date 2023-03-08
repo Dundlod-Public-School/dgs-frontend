@@ -27,7 +27,7 @@ export default function Footer() {
 					<Link href="/rules" className={styles.link}>
 						Rules and Regulations
 					</Link>
-					<Link href="/scholarship" className={styles.link}>
+					<Link href="/scholarships" className={styles.link}>
 						Scholarships
 					</Link>
 					<Link href="/uniform" className={styles.link}>

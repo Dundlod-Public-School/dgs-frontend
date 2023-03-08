@@ -1,1 +1,1 @@
-export default ["Inaugration Ceremony in February 2023"];
+export default ["Inaugration Ceremony in March 2023"];

@@ -1,0 +1,125 @@
+.awardContainer {
+	width: 100vw;
+	min-height: 45vh;
+	margin-top: 15vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.awardHead {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	text-decoration-line: underline;
+	text-transform: uppercase;
+	color: #c35e88;
+	font-size: 3rem;
+	width: 100vw;
+	padding-left: 2vw;
+	margin-bottom: 2vh;
+}
+.awardBody {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100vw;
+}
+.awardTile {
+	background: #1f2937;
+	box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	width: 40vw;
+	height: 40vw;
+	background-image: url("../Images/Scholarships/istockphoto-1176397624-612x612.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: 20vw;
+	background-position-y: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+.tileCover {
+	background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+}
+.tileHeadHide {
+	font-size: 3.125rem;
+	color: rgba(255, 255, 255, 0.5);
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.tileContentHide {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 1.875rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgba(255, 255, 255, 0.5);
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.tileHeadShow {
+	font-size: 3.125rem;
+	color: rgba(255, 255, 255, 1);
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.tileContentShow {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.25rem;
+	line-height: 1.875rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgba(255, 255, 255, 1);
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+@media (max-width: 980px) {
+	.awardBody {
+		flex-direction: column;
+		gap: 20px;
+	}
+	.awardTile {
+		width: 80vw;
+	}
+}
+@media (max-width: 700px) {
+	.tileHeadHide,
+	.tileHeadShow {
+		font-size: 1.5rem;
+	}
+	.tileContentHide,
+	.tileContentShow {
+		font-size: 0.8rem;
+	}
+}
+@media (max-width: 450px) {
+	.tileContentHide,
+	.tileContentShow {
+		font-size: 0.5rem;
+	}
+}
