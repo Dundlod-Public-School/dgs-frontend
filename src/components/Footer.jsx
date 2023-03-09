@@ -12,14 +12,20 @@ export default function Footer() {
 					<h6 className={styles.linksHeading}>Quick Links</h6>
 				</div>
 				<div className={styles.linksList}>
-					<Link href="/brochure" className={styles.link}>
+					<Link
+						href="https://drive.google.com/file/d/1HJ4P7HWZWioZhfP5wJxYwaC10wkwUmRt/view?usp=sharing"
+						className={styles.link}
+					>
 						Brochure
+					</Link>
+					<Link
+						href="https://drive.google.com/file/d/1UMh8kYHG4FP3CVx4flv0M_KnztANIV9a/view?usp=sharing"
+						className={styles.link}
+					>
+						Mess Menu
 					</Link>
 					<Link href="/hostel" className={styles.link}>
 						Hostel
-					</Link>
-					<Link href="/mess" className={styles.link}>
-						Mess Menu
 					</Link>
 					<Link href="/location" className={styles.link}>
 						Location

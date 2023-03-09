@@ -219,6 +219,7 @@ function Experience(props) {
 		<div className={styles.basic}>
 			{Array.from(Array(addExp)).map((value, index) => (
 				<textarea
+					key={value}
 					className={`${styles.textArea} ${styles.Exparea}`}
 					placeholder={
 						"Post\n Years Worked\nOrganization\nAccomplishment during the period(if any)"
