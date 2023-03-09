@@ -14,12 +14,14 @@ export default function Footer() {
 				<div className={styles.linksList}>
 					<Link
 						href="https://drive.google.com/file/d/1HJ4P7HWZWioZhfP5wJxYwaC10wkwUmRt/view?usp=sharing"
+						target={"_blank"}
 						className={styles.link}
 					>
 						Brochure
 					</Link>
 					<Link
 						href="https://drive.google.com/file/d/1UMh8kYHG4FP3CVx4flv0M_KnztANIV9a/view?usp=sharing"
+						target={"_blank"}
 						className={styles.link}
 					>
 						Mess Menu
