@@ -21,7 +21,7 @@ export default function RegistrationOptionPage() {
 					}}
 				>
 					{onStu && (
-						<Link href="/student-application" className={styles.coverLink}>
+						<Link href="/student-registration" className={styles.coverLink}>
 							<div className={styles.cover}>
 								<div className={styles.coverText}>Student</div>
 								<div className={styles.coverArrow}>
