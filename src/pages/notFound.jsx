@@ -1,7 +1,7 @@
-import styles from "@/styles/404.module.css";
+import styles from "@/styles/notFound.module.css";
 import React from "react";
-import Navbar from "../Components/Navbar";
-import Footer from "../Components/Footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
