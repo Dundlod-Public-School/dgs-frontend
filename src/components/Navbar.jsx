@@ -54,8 +54,11 @@ export default function Navbar(props) {
 					Admission
 				</Link>
 				<Link
-					href={"/calender"}
-					className={props.page == "Calender" ? styles.active : styles.pageLinks}
+					href={
+						"https://drive.google.com/file/d/1uYLqdqYRLx9h4yE7G7Tshf6otn1jSpZw/view?usp=sharing"
+					}
+					className={styles.pageLinks}
+					target="_blank"
 				>
 					Calender
 				</Link>
