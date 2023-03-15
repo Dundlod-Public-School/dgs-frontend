@@ -1,6 +1,6 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
-const API_URL = "https://dgsbackend-u8bc.onrender.com/";
+const API_URL = "https://dgs-backend.onrender.com/";
 function postTeacher(data) {
 	fetch(`${API_URL}teacherApp`, {
 		method: "POST",
