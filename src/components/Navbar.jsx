@@ -63,6 +63,15 @@ export default function Navbar(props) {
 					Calender
 				</Link>
 				<Link
+					href={
+						"https://drive.google.com/file/d/1f-3LQlQNl-fLUHzZceTRrtU-HfuUOJR4/view?usp=sharing"
+					}
+					className={styles.pageLinks}
+					target="_blank"
+				>
+					Fee Structure
+				</Link>
+				<Link
 					href={"/gallery"}
 					className={props.page == "Gallery" ? styles.active : styles.pageLinks}
 				>
