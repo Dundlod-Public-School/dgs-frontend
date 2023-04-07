@@ -14,6 +14,7 @@
 	align-items: center;
 	justify-content: center;
 }
+
 .image {
 	width: 85vw;
 	height: 80vh;
@@ -327,3 +328,4 @@
 		width: 85vw;
 	}
 }
+

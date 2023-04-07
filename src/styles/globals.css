@@ -27,3 +27,70 @@
 .navbar-margin-manager {
 	height: 15vh;
 }
+/* .img-media{
+	height: 25vh;
+	width: 20vw;
+	
+} */
+
+
+.img-media1 {
+	background-image: url("../images/Home/news2.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 25vh;
+	width: 20vw;
+}
+.img-media2 {
+	background-image: url("../images/Home/brown.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 25vh;
+	width: 20vw;
+}
+.img-media3 {
+	background-image: url("../images/Home/news4.jpeg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 25vh;
+	width: 20vw;
+}
+
+.img-media5{
+
+	background-image: url("../images/Home/schoolwork.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 25vh;
+	width: 20vw;
+}
+
+
+.images-section{
+    display: grid;
+	padding-top: 40px;
+	padding-bottom: 40px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.images-section .img-media{
+	padding: 10px;
+}
+.images-section .img-media img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.Home_news1__fElVT {
+    background-image: url(/_next/static/media/news1.9d1dd903.png)!important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important; 
+    height: 25vh !important;
+    width: 20vw !important;
+}
