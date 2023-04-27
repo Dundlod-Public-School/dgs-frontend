@@ -64,7 +64,7 @@ export default function Navbar(props) {
 				</Link>
 				<Link
 					href={
-						"https://drive.google.com/file/d/1f-3LQlQNl-fLUHzZceTRrtU-HfuUOJR4/view?usp=sharing"
+						"https://drive.google.com/file/d/1jeiiN6fLQWr8uviygfW6lDnQxso0CBH6/view?usp=sharing"
 					}
 					className={styles.pageLinks}
 					target="_blank"

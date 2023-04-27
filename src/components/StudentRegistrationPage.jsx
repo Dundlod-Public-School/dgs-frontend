@@ -105,6 +105,7 @@ export default function StudentRegistrationPage() {
 									}}
 								>
 									<option vlaue="">--</option>
+									<option value="II">II</option>
 									<option value="III">III</option>
 									<option value="IV">IV</option>
 									<option value="V">V</option>

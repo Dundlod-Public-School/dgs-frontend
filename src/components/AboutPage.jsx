@@ -3,7 +3,7 @@ import Image from "next/image";
 import chairman from "../images/About/chairman.jpg";
 import principal from "../images/About/principal.jpg";
 import dundlod from "../images/About/dps-dundlod.jpg";
-import jhunjhunu from "../images/About/dps-jhunjhunu.jpeg";
+import jhunjhunu from "../images/About/dps-jhunjhunu.jpg";
 import styles from "@/styles/About.module.css";
 
 function AboutBar(props) {

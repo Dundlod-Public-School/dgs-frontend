@@ -57,9 +57,9 @@ export default function RulesPage() {
 							</div>
 							<div className={styles.aimsList}>
 								<p className={styles.aimsListInfo}>
-									Class III to V: For each subject, there will be three Unit
-									Tests. (I Unit Test, II Unit Test, III Unit Test) of 25 marks
-									each, and there will be three Term Exams (I Term, II Term & III
+									Class II to V: For each subject, there will be three Unit
+									Tests. (I Unit Test, II Unit Test, II Unit Test) of 25 marks
+									each, and there will be three Term Exams (I Term, II Term & II
 									Term), each carrying 75 marks. Unit Tests for class XI will be
 									20 marks each, and Term Exam will be 80 marks each. Thus, the
 									maximum marks are 300 for each subject when it comes to
@@ -121,7 +121,7 @@ export default function RulesPage() {
 						<div className={styles.aimsRight}>
 							<div className={styles.aimsList}>
 								<p className={styles.aimsListInfo}>
-									Class III to V: There are three terms for them. Each term
+									Class II to V: There are three terms for them. Each term
 									contributes 100 marks. So, their result is calculated with 300
 									maximum marks in each subject. One has to secure a minimum of
 									33% in each subject to earn a promotion. Some marks are

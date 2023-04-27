@@ -69,7 +69,7 @@ export default function CurriculumPage() {
 				<Sidebar />
 				<div className={styles.curriContent}>
 					<div className={styles.headContent}>
-						The school provides education from form III to VIII strictly keeping English
+						The school provides education from form II to VIII strictly keeping English
 						as a medium of instruction. The optional third language for classes VI to
 						VIII is Sanskrit. All the necessary and essential subjects like English,
 						Hindi, Social Science, Mathematics, Science, Computer Science, Art, Music,
@@ -86,7 +86,7 @@ export default function CurriculumPage() {
 							<Image src={image1} className={styles.curriImg}></Image>
 							<div className={styles.sectionText}>
 								<span className={styles.bold}>Preparatory stage</span> classes
-								include III to V. Apart from the major subjects like English, Hindi,
+								include II to V. Apart from the major subjects like English, Hindi,
 								Maths, General Science & Social Studies, emphasis is given on
 								Computer Science, Health & Physical Education, Art & Craft, Music &
 								Dance, G.K. and Value Education also. Needless to say, the school

@@ -28,7 +28,7 @@ export default function Scholarships() {
 								obtaining the highest percentage in their respective class groups
 							</div>
 							<div className={onA1 ? styles.tileContentShow : styles.tileContentHide}>
-								Classes III to V
+								Classes II to V
 							</div>
 							<div className={onA1 ? styles.tileContentShow : styles.tileContentHide}>
 								Classes VI to VIII

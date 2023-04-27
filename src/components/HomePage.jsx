@@ -26,9 +26,9 @@ export default function HomePage() {
 				<div className={styles.hero}>
 					<div className={styles.image}></div>
 					<div className={styles.about}>
-						DGS is an English Medium All-Girls' Boarding School projected to be CBSE
+						DGS is an English Medium All-Girls' Boarding cum Day School projected to be CBSE
 						affiliated and is managed by “DUNDLOD SHIKSHAN SANSTHAN, DUNDLOD”. The
-						school runs classes from III to VIII with a proposed step-wise expansion to
+						school runs classes from II to VIII with a proposed step-wise expansion to
 						the Senior Secondary Level. The campus is situated in a lush green,
 						pollution-free locality near the heritage city of Dundlod. It is 2 hour
 						journey from Jaipur & 4 hours from Delhi. The nearest airport is Jaipur
