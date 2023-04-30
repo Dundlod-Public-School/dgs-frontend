@@ -1,14 +1,6 @@
 import styles from "@/styles/Home.module.css";
 import React from "react";
 import Events from "@/data/events";
-import news1 from "../images/Home/newschool (3).png";
-import news2 from "../images/Home/newschool (2).png";
-import news3 from "../images/Home/newschool (1).png";
-import news4 from "../images/Home/newschool (4).png";
-
-// import news3 from "../images/Home/news3.jpeg";
-// import news4 from "../images/Home/news3.jpeg";
-import Image from "next/image";
 
 export default function HomePage() {
 	const eventsDisp = Events.map((x, i) => {
@@ -57,17 +49,9 @@ export default function HomePage() {
 						<div className={styles.mediaHead}>MEDIA</div>
 						<div className={styles.mediaBody}>
 							<div className={styles.news1}></div>
-							
-							<div className="img-media1">
-							</div>
-
-							<div className="img-media2">
-							</div>
-							<div className="img-media5">
-							</div>
-							
-						
-						
+							<div className={styles.news2}></div>
+							<div className={styles.news3}></div>
+							<div className={styles.news4}></div>
 						</div>
 					</div>
 				</div>
@@ -149,24 +133,6 @@ export default function HomePage() {
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div className="images-section">
-						
-				<div className="img-media">
-							<Image src={news1} />
-							</div>
-								
-							<div className="img-media">
-							<Image src={news3} />
-							</div>
-								
-							<div className="img-media">
-							<Image src={news2} />
-							</div>	
-							<div className="img-media">
-							<Image src={news4} />
-							</div>
 				</div>
 			</div>
 		</div>

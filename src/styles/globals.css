@@ -1,96 +1,29 @@
 * {
-	margin: 0;
-	padding: 0;
-	outline: none;
-	border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
 }
 
 *::-webkit-scrollbar {
-	width: 4px;
-	border-radius: 10px;
+  width: 4px;
+  border-radius: 10px;
 }
 
 *:hover::-webkit-scrollbar-thumb {
-	background: rgba(51, 51, 51, 0.1);
-	border-radius: 10px;
+  background: rgba(51, 51, 51, 0.1);
+  border-radius: 10px;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-	background: rgba(51, 51, 51, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background: rgba(51, 51, 51, 0.3);
 }
 
 :root {
-	overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 .navbar-margin-manager {
-	height: 15vh;
-}
-/* .img-media{
-	height: 25vh;
-	width: 20vw;
-	
-} */
-
-
-.img-media1 {
-	background-image: url("../images/Home/news2.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 25vh;
-	width: 20vw;
-}
-.img-media2 {
-	background-image: url("../images/Home/brown.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 25vh;
-	width: 20vw;
-}
-.img-media3 {
-	background-image: url("../images/Home/news4.jpeg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 25vh;
-	width: 20vw;
-}
-
-.img-media5{
-
-	background-image: url("../images/Home/schoolwork.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 25vh;
-	width: 20vw;
-}
-
-
-.images-section{
-    display: grid;
-	padding-top: 40px;
-	padding-bottom: 40px;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-
-.images-section .img-media{
-	padding: 10px;
-}
-.images-section .img-media img {
-    width: 100%;
-    height: auto;
-    border: 1px solid #000;
-}
-
-.Home_news1__fElVT {
-    background-image: url(/_next/static/media/news1.9d1dd903.png)!important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important; 
-    height: 25vh !important;
-    width: 20vw !important;
+  height: 15vh;
 }
